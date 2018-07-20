@@ -25,7 +25,7 @@ LOGIN_REDIRECT_URL = '/'
 urlpatterns = [
     path('googlecalendar/', include('googlecalendar.urls')),
     path('accounts/profile/', include('googlecalendar.urls')),
-    path('googlecalendar/new/', views.post, name='new_calendar'),
+    path('googlecalendar/new/', views.post),
     path('', include('social_django.urls', namespace='social')),
     #path('googlecalendar/social', namespace='social'),
     path('admin/', admin.site.urls),

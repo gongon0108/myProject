@@ -1,7 +1,53 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="60aa982b-7642-4107-9813-743bae603b8d" name="Default" comment="" />
+    <list default="true" id="60aa982b-7642-4107-9813-743bae603b8d" name="Default" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/myplace.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client_secret_5414.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client_secret_gdi.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client_secrets.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/credentials.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/db.sqlite3" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/envs.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/googlecalendar/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/googlecalendar/admin.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/googlecalendar/apps.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/googlecalendar/calendar.dat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/googlecalendar/calendar_sample.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/googlecalendar/client_secrets.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/googlecalendar/form.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/googlecalendar/migrations/0001_initial.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/googlecalendar/migrations/0002_auto_20180709_1900.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/googlecalendar/migrations/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/googlecalendar/models.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/googlecalendar/static/googlecalendar/style.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/googlecalendar/templates/googlecalendar/css/bootstrap-grid.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/googlecalendar/templates/googlecalendar/css/bootstrap-grid.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/googlecalendar/templates/googlecalendar/css/bootstrap-grid.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/googlecalendar/templates/googlecalendar/css/bootstrap-grid.min.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/googlecalendar/templates/googlecalendar/css/bootstrap-reboot.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/googlecalendar/templates/googlecalendar/css/bootstrap-reboot.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/googlecalendar/templates/googlecalendar/css/bootstrap-reboot.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/googlecalendar/templates/googlecalendar/css/bootstrap-reboot.min.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/googlecalendar/templates/googlecalendar/css/bootstrap.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/googlecalendar/templates/googlecalendar/css/bootstrap.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/googlecalendar/templates/googlecalendar/css/bootstrap.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/googlecalendar/templates/googlecalendar/css/bootstrap.min.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/googlecalendar/templates/googlecalendar/form.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/googlecalendar/templates/googlecalendar/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/googlecalendar/templates/googlecalendar/js/javascript.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/googlecalendar/tests.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/googlecalendar/urls.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/googlecalendar/views.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/manage.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myplace/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myplace/settings.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myplace/urls.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myplace/wsgi.py" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -14,8 +60,11 @@
       <file leaf-file-name="models.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/googlecalendar/models.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="57">
-              <caret line="3" column="23" lean-forward="true" selection-start-line="3" selection-start-column="23" selection-end-line="3" selection-end-column="23" />
+            <state relative-caret-position="209">
+              <caret line="12" selection-start-line="12" selection-end-line="12" />
+              <folding>
+                <element signature="e#0#28#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -23,60 +72,8 @@
       <file leaf-file-name="views.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/googlecalendar/views.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="19">
-              <caret line="34" selection-start-line="34" selection-end-line="34" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/googlecalendar/templates/googlecalendar/index.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="579">
-              <caret line="317" column="14" lean-forward="true" selection-start-line="317" selection-start-column="14" selection-end-line="317" selection-end-column="14" />
-              <folding>
-                <element signature="e#2317#2324#1" expanded="true" />
-                <element signature="e#2510#2517#1" expanded="true" />
-                <element signature="e#2706#2713#1" expanded="true" />
-                <element signature="e#2902#2909#1" expanded="true" />
-                <element signature="e#3098#3105#1" expanded="true" />
-                <element signature="e#3294#3301#1" expanded="true" />
-                <element signature="e#3490#3497#1" expanded="true" />
-                <element signature="e#3686#3693#1" expanded="true" />
-                <element signature="e#3882#3889#1" expanded="true" />
-                <element signature="e#4079#4086#1" expanded="true" />
-                <element signature="e#4896#4903#1" expanded="true" />
-                <element signature="e#4473#4480#1" expanded="true" />
-                <element signature="e#4670#4677#1" expanded="true" />
-                <element signature="e#4867#4874#1" expanded="true" />
-                <element signature="e#5064#5071#1" expanded="true" />
-                <element signature="e#5262#5269#1" expanded="true" />
-                <element signature="e#5468#5475#1" expanded="true" />
-                <element signature="e#5643#5650#1" expanded="true" />
-                <element signature="e#6468#6475#1" expanded="true" />
-                <element signature="e#7287#7294#1" expanded="true" />
-                <element signature="e#18632#18639#1" expanded="true" />
-                <element signature="e#19449#19456#1" expanded="true" />
-                <element signature="e#20266#20273#1" expanded="true" />
-                <element signature="e#21083#21090#1" expanded="true" />
-                <element signature="e#21900#21907#1" expanded="true" />
-                <element signature="e#22717#22724#1" expanded="true" />
-                <element signature="e#23534#23541#1" expanded="true" />
-                <element signature="e#24351#24358#1" expanded="true" />
-                <element signature="e#25168#25175#1" expanded="true" />
-                <element signature="e#25985#25992#1" expanded="true" />
-                <element signature="e#26802#26809#1" expanded="true" />
-                <element signature="n#style#0;n#button#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="javascript.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/googlecalendar/templates/googlecalendar/js/javascript.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="304">
-              <caret line="16" column="37" lean-forward="true" selection-start-line="16" selection-start-column="37" selection-end-line="16" selection-end-column="37" />
+            <state relative-caret-position="551">
+              <caret line="29" column="28" selection-start-line="29" selection-start-column="28" selection-end-line="29" selection-end-column="28" />
             </state>
           </provider>
         </entry>
@@ -85,7 +82,7 @@
         <entry file="file://$PROJECT_DIR$/googlecalendar/form.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="95">
-              <caret line="6" column="23" lean-forward="true" selection-start-line="6" selection-start-column="23" selection-end-line="6" selection-end-column="23" />
+              <caret line="6" column="69" selection-start-line="6" selection-start-column="69" selection-end-line="6" selection-end-column="69" />
               <folding>
                 <element signature="e#0#24#0" expanded="true" />
               </folding>
@@ -93,14 +90,29 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="settings.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/myplace/settings.py">
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/googlecalendar/templates/googlecalendar/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="418">
-              <caret line="24" selection-start-line="24" selection-end-line="24" />
+            <state relative-caret-position="456">
+              <caret line="94" column="20" lean-forward="true" selection-start-line="94" selection-start-column="20" selection-end-line="94" selection-end-column="20" />
               <folding>
-                <element signature="e#308#317#0" expanded="true" />
+                <element signature="n#style#0;n#head#0;n#html#0;n#!!top" />
+                <element signature="n#style#0;n#span#0;n#li#2;n#ul#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#ul#0;n#body#0;n#html#0;n#!!top" />
+                <element signature="n#ul#1;n#body#0;n#html#0;n#!!top" />
+                <element signature="n#style#0;n#button#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#table#0;n#body#0;n#html#0;n#!!top" />
+                <element signature="n#script#0;n#body#0;n#html#0;n#!!top" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="style.css" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/googlecalendar/static/googlecalendar/style.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="329">
+              <caret line="67" selection-start-line="67" selection-end-line="67" />
             </state>
           </provider>
         </entry>
@@ -108,31 +120,10 @@
       <file leaf-file-name="urls.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/myplace/urls.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="76">
-              <caret line="4" column="9" lean-forward="true" selection-start-line="4" selection-start-column="9" selection-end-line="4" selection-end-column="9" />
+            <state relative-caret-position="437">
+              <caret line="26" column="31" selection-start-line="26" selection-start-column="31" selection-end-line="26" selection-end-column="31" />
               <folding>
                 <element signature="e#631#663#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="quickstart.py" pinned="false" current-in-tab="false">
-        <entry file="file://C:/calendar/quickstart/quickstart.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="133">
-              <caret line="7" column="11" selection-start-line="7" selection-start-column="11" selection-end-line="7" selection-end-column="11" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="manage.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/manage.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="190">
-              <caret line="11" column="17" selection-start-line="11" selection-start-column="17" selection-end-line="11" selection-end-column="17" />
-              <folding>
-                <element signature="e#22#31#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -141,10 +132,22 @@
       <file leaf-file-name="urls.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/googlecalendar/urls.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="76">
-              <caret line="6" column="1" lean-forward="true" selection-start-line="6" selection-start-column="1" selection-end-line="6" selection-end-column="1" />
+            <state relative-caret-position="57">
+              <caret line="5" column="41" selection-start-line="5" selection-start-column="41" selection-end-line="5" selection-end-column="41" />
               <folding>
                 <element signature="e#0#28#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="manage.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/manage.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="209">
+              <caret line="11" column="17" selection-start-line="11" selection-start-column="17" selection-end-line="11" selection-end-column="17" />
+              <folding>
+                <element signature="e#22#31#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -166,7 +169,17 @@
       <find>July</find>
       <find>event</find>
       <find>id=&quot;myBtn&quot;</find>
+      <find>google</find>
+      <find>table</find>
+      <find>post</find>
+      <find>post-form</find>
+      <find>with</find>
+      <find />
+      <find>july</find>
     </findStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -175,26 +188,26 @@
         <option value="$PROJECT_DIR$/googlecalendar/calendar/index.html" />
         <option value="$PROJECT_DIR$/googlecalendar/calendar_sample.py" />
         <option value="$PROJECT_DIR$/googlecalendar/client_secrets.json" />
-        <option value="$PROJECT_DIR$/googlecalendar/urls.py" />
         <option value="$PROJECT_DIR$/googlecalendar/templates/googlecalendar/form.html" />
         <option value="C:/calendar/quickstart/quickstart.py" />
         <option value="$PROJECT_DIR$/googlecalendar/forms.py" />
-        <option value="$PROJECT_DIR$/googlecalendar/static/googlecalendar/style.css" />
         <option value="$PROJECT_DIR$/myplace/settings.py" />
-        <option value="$PROJECT_DIR$/myplace/urls.py" />
+        <option value="$PROJECT_DIR$/googlecalendar/templates/googlecalendar/javascript.js" />
         <option value="$PROJECT_DIR$/googlecalendar/models.py" />
         <option value="$PROJECT_DIR$/googlecalendar/form.py" />
+        <option value="$PROJECT_DIR$/myplace/urls.py" />
+        <option value="$PROJECT_DIR$/googlecalendar/urls.py" />
         <option value="$PROJECT_DIR$/googlecalendar/views.py" />
-        <option value="$PROJECT_DIR$/googlecalendar/templates/googlecalendar/javascript.js" />
+        <option value="$PROJECT_DIR$/googlecalendar/static/googlecalendar/style.css" />
         <option value="$PROJECT_DIR$/googlecalendar/templates/googlecalendar/index.html" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="7">
-    <option name="x" value="320" />
-    <option name="y" value="-20" />
-    <option name="width" value="946" />
-    <option name="height" value="743" />
+    <option name="x" value="417" />
+    <option name="y" value="65" />
+    <option name="width" value="1069" />
+    <option name="height" value="719" />
   </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
@@ -217,6 +230,19 @@
               <item name="myplace" type="b2602c69:ProjectViewProjectNode" />
               <item name="myplace" type="462c0819:PsiDirectoryNode" />
               <item name="googlecalendar" type="462c0819:PsiDirectoryNode" />
+              <item name="static" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="myplace" type="b2602c69:ProjectViewProjectNode" />
+              <item name="myplace" type="462c0819:PsiDirectoryNode" />
+              <item name="googlecalendar" type="462c0819:PsiDirectoryNode" />
+              <item name="static" type="462c0819:PsiDirectoryNode" />
+              <item name="googlecalendar" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="myplace" type="b2602c69:ProjectViewProjectNode" />
+              <item name="myplace" type="462c0819:PsiDirectoryNode" />
+              <item name="googlecalendar" type="462c0819:PsiDirectoryNode" />
               <item name="templates" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -225,14 +251,6 @@
               <item name="googlecalendar" type="462c0819:PsiDirectoryNode" />
               <item name="templates" type="462c0819:PsiDirectoryNode" />
               <item name="googlecalendar" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="myplace" type="b2602c69:ProjectViewProjectNode" />
-              <item name="myplace" type="462c0819:PsiDirectoryNode" />
-              <item name="googlecalendar" type="462c0819:PsiDirectoryNode" />
-              <item name="templates" type="462c0819:PsiDirectoryNode" />
-              <item name="googlecalendar" type="462c0819:PsiDirectoryNode" />
-              <item name="js" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="myplace" type="b2602c69:ProjectViewProjectNode" />
@@ -249,15 +267,17 @@
   <component name="PropertiesComponent">
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="SearchEverywhereHistoryKey" value="&#9;FILE&#9;file://C:/djangoCalendar/myplace/googlecalendar/models.py" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\djangoCalendar\myplace\googlecalendar" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\djangoCalendar\myplace\googlecalendar\templates\googlecalendar\js" />
       <recent name="C:\djangoCalendar\myplace\googlecalendar" />
       <recent name="C:\djangoCalendar\myplace\googlecalendar\templates\googlecalendar" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\안건우\Documents\djangoProject\myplace\googlecalendar\templates\googlecalendar\css" />
+      <recent name="C:\djangoCalendar\myplace\googlecalendar" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -289,10 +309,10 @@
     <frame x="-8" y="-8" width="1616" height="876" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.1825" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.1475" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Event Log" order="8" sideWeight="0.500625" side_tool="true" visible="true" weight="0.12646675" />
-      <window_info anchor="bottom" id="Version Control" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Event Log" order="8" sideWeight="0.500625" side_tool="true" visible="true" weight="0.10443864" />
+      <window_info anchor="bottom" id="Version Control" order="7" />
       <window_info anchor="bottom" id="Python Console" order="10" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.32911393" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -312,6 +332,123 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/googlecalendar/urls.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="76">
+          <caret line="6" column="1" selection-start-line="6" selection-start-column="1" selection-end-line="6" selection-end-column="1" />
+          <folding>
+            <element signature="e#0#28#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/googlecalendar/templates/googlecalendar/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="5795">
+          <caret line="305" column="39" lean-forward="true" selection-start-line="305" selection-start-column="39" selection-end-line="305" selection-end-column="39" />
+          <folding>
+            <element signature="n#style#0;n#head#0;n#html#0;n#!!top" />
+            <element signature="n#style#0;n#span#0;n#li#2;n#ul#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#ul#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#ul#1;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#style#0;n#button#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#table#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#script#0;n#body#0;n#html#0;n#!!top" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/googlecalendar/models.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="57">
+          <caret line="3" column="23" lean-forward="true" selection-start-line="3" selection-start-column="23" selection-end-line="3" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/googlecalendar/views.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="418">
+          <caret line="34" selection-start-line="34" selection-end-line="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/googlecalendar/templates/googlecalendar/js/javascript.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="304">
+          <caret line="16" column="37" lean-forward="true" selection-start-line="16" selection-start-column="37" selection-end-line="16" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/googlecalendar/form.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="95">
+          <caret line="6" column="23" lean-forward="true" selection-start-line="6" selection-start-column="23" selection-end-line="6" selection-end-column="23" />
+          <folding>
+            <element signature="e#0#24#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/myplace/settings.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="418">
+          <caret line="24" selection-start-line="24" selection-end-line="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/myplace/urls.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="76">
+          <caret line="4" column="9" lean-forward="true" selection-start-line="4" selection-start-column="9" selection-end-line="4" selection-end-column="9" />
+          <folding>
+            <element signature="e#631#663#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://C:/calendar/quickstart/quickstart.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="133">
+          <caret line="7" column="11" selection-start-line="7" selection-start-column="11" selection-end-line="7" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/manage.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="190">
+          <caret line="11" column="17" selection-start-line="11" selection-start-column="17" selection-end-line="11" selection-end-column="17" />
+          <folding>
+            <element signature="e#22#31#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/googlecalendar/urls.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="76">
+          <caret line="6" column="1" lean-forward="true" selection-start-line="6" selection-start-column="1" selection-end-line="6" selection-end-column="1" />
+          <folding>
+            <element signature="e#0#28#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/googlecalendar/templates/googlecalendar/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="6023">
+          <caret line="317" column="14" lean-forward="true" selection-start-line="317" selection-start-column="14" selection-end-line="317" selection-end-column="14" />
+          <folding>
+            <element signature="n#style#0;n#head#0;n#html#0;n#!!top" />
+            <element signature="n#style#0;n#span#0;n#li#2;n#ul#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#ul#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#ul#1;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#style#0;n#button#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#table#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#script#0;n#body#0;n#html#0;n#!!top" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/googlecalendar/models.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="95">
@@ -340,9 +477,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="456">
           <caret line="24" selection-start-line="24" selection-end-line="24" />
-          <folding>
-            <element signature="e#308#317#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -388,38 +522,13 @@
         <state relative-caret-position="1957">
           <caret line="103" column="23" lean-forward="true" selection-start-line="103" selection-start-column="23" selection-end-line="103" selection-end-column="23" />
           <folding>
-            <element signature="e#2317#2324#1" expanded="true" />
-            <element signature="e#2510#2517#1" expanded="true" />
-            <element signature="e#2706#2713#1" expanded="true" />
-            <element signature="e#2902#2909#1" expanded="true" />
-            <element signature="e#3098#3105#1" expanded="true" />
-            <element signature="e#3294#3301#1" expanded="true" />
-            <element signature="e#3490#3497#1" expanded="true" />
-            <element signature="e#3686#3693#1" expanded="true" />
-            <element signature="e#3882#3889#1" expanded="true" />
-            <element signature="e#4079#4086#1" expanded="true" />
-            <element signature="e#4896#4903#1" expanded="true" />
-            <element signature="e#4473#4480#1" expanded="true" />
-            <element signature="e#4670#4677#1" expanded="true" />
-            <element signature="e#4867#4874#1" expanded="true" />
-            <element signature="e#5064#5071#1" expanded="true" />
-            <element signature="e#5262#5269#1" expanded="true" />
-            <element signature="e#5468#5475#1" expanded="true" />
-            <element signature="e#5643#5650#1" expanded="true" />
-            <element signature="e#6468#6475#1" expanded="true" />
-            <element signature="e#7287#7294#1" expanded="true" />
-            <element signature="e#18632#18639#1" expanded="true" />
-            <element signature="e#19449#19456#1" expanded="true" />
-            <element signature="e#20266#20273#1" expanded="true" />
-            <element signature="e#21083#21090#1" expanded="true" />
-            <element signature="e#21900#21907#1" expanded="true" />
-            <element signature="e#22717#22724#1" expanded="true" />
-            <element signature="e#23534#23541#1" expanded="true" />
-            <element signature="e#24351#24358#1" expanded="true" />
-            <element signature="e#25168#25175#1" expanded="true" />
-            <element signature="e#25985#25992#1" expanded="true" />
-            <element signature="e#26802#26809#1" expanded="true" />
+            <element signature="n#style#0;n#head#0;n#html#0;n#!!top" />
+            <element signature="n#style#0;n#span#0;n#li#2;n#ul#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#ul#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#ul#1;n#body#0;n#html#0;n#!!top" />
             <element signature="n#style#0;n#button#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#table#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#script#0;n#body#0;n#html#0;n#!!top" />
           </folding>
         </state>
       </provider>
@@ -435,9 +544,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="418">
           <caret line="24" selection-start-line="24" selection-end-line="24" />
-          <folding>
-            <element signature="e#308#317#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -463,38 +569,13 @@
         <state relative-caret-position="1862">
           <caret line="98" column="11" lean-forward="true" selection-start-line="98" selection-start-column="11" selection-end-line="98" selection-end-column="11" />
           <folding>
-            <element signature="e#2317#2324#1" expanded="true" />
-            <element signature="e#2510#2517#1" expanded="true" />
-            <element signature="e#2706#2713#1" expanded="true" />
-            <element signature="e#2902#2909#1" expanded="true" />
-            <element signature="e#3098#3105#1" expanded="true" />
-            <element signature="e#3294#3301#1" expanded="true" />
-            <element signature="e#3490#3497#1" expanded="true" />
-            <element signature="e#3686#3693#1" expanded="true" />
-            <element signature="e#3882#3889#1" expanded="true" />
-            <element signature="e#4079#4086#1" expanded="true" />
-            <element signature="e#4896#4903#1" expanded="true" />
-            <element signature="e#4473#4480#1" expanded="true" />
-            <element signature="e#4670#4677#1" expanded="true" />
-            <element signature="e#4867#4874#1" expanded="true" />
-            <element signature="e#5064#5071#1" expanded="true" />
-            <element signature="e#5262#5269#1" expanded="true" />
-            <element signature="e#5468#5475#1" expanded="true" />
-            <element signature="e#5643#5650#1" expanded="true" />
-            <element signature="e#6468#6475#1" expanded="true" />
-            <element signature="e#7287#7294#1" expanded="true" />
-            <element signature="e#18632#18639#1" expanded="true" />
-            <element signature="e#19449#19456#1" expanded="true" />
-            <element signature="e#20266#20273#1" expanded="true" />
-            <element signature="e#21083#21090#1" expanded="true" />
-            <element signature="e#21900#21907#1" expanded="true" />
-            <element signature="e#22717#22724#1" expanded="true" />
-            <element signature="e#23534#23541#1" expanded="true" />
-            <element signature="e#24351#24358#1" expanded="true" />
-            <element signature="e#25168#25175#1" expanded="true" />
-            <element signature="e#25985#25992#1" expanded="true" />
-            <element signature="e#26802#26809#1" expanded="true" />
+            <element signature="n#style#0;n#head#0;n#html#0;n#!!top" />
+            <element signature="n#style#0;n#span#0;n#li#2;n#ul#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#ul#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#ul#1;n#body#0;n#html#0;n#!!top" />
             <element signature="n#style#0;n#button#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#table#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#script#0;n#body#0;n#html#0;n#!!top" />
           </folding>
         </state>
       </provider>
@@ -580,63 +661,6 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/googlecalendar/forms.py" />
-    <entry file="file://$PROJECT_DIR$/googlecalendar/static/googlecalendar/style.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1254">
-          <caret line="66" column="1" selection-start-line="66" selection-start-column="1" selection-end-line="66" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/manage.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="190">
-          <caret line="11" column="17" selection-start-line="11" selection-start-column="17" selection-end-line="11" selection-end-column="17" />
-          <folding>
-            <element signature="e#22#31#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/googlecalendar/urls.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="76">
-          <caret line="6" column="1" lean-forward="true" selection-start-line="6" selection-start-column="1" selection-end-line="6" selection-end-column="1" />
-          <folding>
-            <element signature="e#0#28#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/myplace/settings.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="418">
-          <caret line="24" selection-start-line="24" selection-end-line="24" />
-          <folding>
-            <element signature="e#308#317#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/myplace/urls.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="76">
-          <caret line="4" column="9" lean-forward="true" selection-start-line="4" selection-start-column="9" selection-end-line="4" selection-end-column="9" />
-          <folding>
-            <element signature="e#631#663#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/googlecalendar/form.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="95">
-          <caret line="6" column="23" lean-forward="true" selection-start-line="6" selection-start-column="23" selection-end-line="6" selection-end-column="23" />
-          <folding>
-            <element signature="e#0#24#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://C:/calendar/quickstart/quickstart.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="133">
@@ -647,61 +671,96 @@
     <entry file="file://$PROJECT_DIR$/googlecalendar/templates/googlecalendar/js/javascript.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="304">
-          <caret line="16" column="37" lean-forward="true" selection-start-line="16" selection-start-column="37" selection-end-line="16" selection-end-column="37" />
+          <caret line="16" column="37" selection-start-line="16" selection-start-column="37" selection-end-line="16" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/myplace/settings.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="418">
+          <caret line="24" selection-start-line="24" selection-end-line="24" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/googlecalendar/models.py">
       <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="209">
+          <caret line="12" selection-start-line="12" selection-end-line="12" />
+          <folding>
+            <element signature="e#0#28#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/googlecalendar/urls.py">
+      <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="57">
-          <caret line="3" column="23" lean-forward="true" selection-start-line="3" selection-start-column="23" selection-end-line="3" selection-end-column="23" />
+          <caret line="5" column="41" selection-start-line="5" selection-start-column="41" selection-end-line="5" selection-end-column="41" />
+          <folding>
+            <element signature="e#0#28#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/myplace/urls.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="437">
+          <caret line="26" column="31" selection-start-line="26" selection-start-column="31" selection-end-line="26" selection-end-column="31" />
+          <folding>
+            <element signature="e#631#663#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/googlecalendar/form.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="95">
+          <caret line="6" column="69" selection-start-line="6" selection-start-column="69" selection-end-line="6" selection-end-column="69" />
+          <folding>
+            <element signature="e#0#24#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/googlecalendar/views.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="19">
-          <caret line="34" selection-start-line="34" selection-end-line="34" />
+        <state relative-caret-position="551">
+          <caret line="29" column="28" selection-start-line="29" selection-start-column="28" selection-end-line="29" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/manage.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="209">
+          <caret line="11" column="17" selection-start-line="11" selection-start-column="17" selection-end-line="11" selection-end-column="17" />
+          <folding>
+            <element signature="e#22#31#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/googlecalendar/templates/googlecalendar/css/bootstrap.css">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/googlecalendar/static/googlecalendar/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="329">
+          <caret line="67" selection-start-line="67" selection-end-line="67" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/googlecalendar/templates/googlecalendar/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="579">
-          <caret line="317" column="14" lean-forward="true" selection-start-line="317" selection-start-column="14" selection-end-line="317" selection-end-column="14" />
+        <state relative-caret-position="456">
+          <caret line="94" column="20" lean-forward="true" selection-start-line="94" selection-start-column="20" selection-end-line="94" selection-end-column="20" />
           <folding>
-            <element signature="e#2317#2324#1" expanded="true" />
-            <element signature="e#2510#2517#1" expanded="true" />
-            <element signature="e#2706#2713#1" expanded="true" />
-            <element signature="e#2902#2909#1" expanded="true" />
-            <element signature="e#3098#3105#1" expanded="true" />
-            <element signature="e#3294#3301#1" expanded="true" />
-            <element signature="e#3490#3497#1" expanded="true" />
-            <element signature="e#3686#3693#1" expanded="true" />
-            <element signature="e#3882#3889#1" expanded="true" />
-            <element signature="e#4079#4086#1" expanded="true" />
-            <element signature="e#4896#4903#1" expanded="true" />
-            <element signature="e#4473#4480#1" expanded="true" />
-            <element signature="e#4670#4677#1" expanded="true" />
-            <element signature="e#4867#4874#1" expanded="true" />
-            <element signature="e#5064#5071#1" expanded="true" />
-            <element signature="e#5262#5269#1" expanded="true" />
-            <element signature="e#5468#5475#1" expanded="true" />
-            <element signature="e#5643#5650#1" expanded="true" />
-            <element signature="e#6468#6475#1" expanded="true" />
-            <element signature="e#7287#7294#1" expanded="true" />
-            <element signature="e#18632#18639#1" expanded="true" />
-            <element signature="e#19449#19456#1" expanded="true" />
-            <element signature="e#20266#20273#1" expanded="true" />
-            <element signature="e#21083#21090#1" expanded="true" />
-            <element signature="e#21900#21907#1" expanded="true" />
-            <element signature="e#22717#22724#1" expanded="true" />
-            <element signature="e#23534#23541#1" expanded="true" />
-            <element signature="e#24351#24358#1" expanded="true" />
-            <element signature="e#25168#25175#1" expanded="true" />
-            <element signature="e#25985#25992#1" expanded="true" />
-            <element signature="e#26802#26809#1" expanded="true" />
+            <element signature="n#style#0;n#head#0;n#html#0;n#!!top" />
+            <element signature="n#style#0;n#span#0;n#li#2;n#ul#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#ul#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#ul#1;n#body#0;n#html#0;n#!!top" />
             <element signature="n#style#0;n#button#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#table#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#script#0;n#body#0;n#html#0;n#!!top" />
           </folding>
         </state>
       </provider>

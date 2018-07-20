@@ -42,10 +42,12 @@ def index(request):
         creds = tools.run_flow(flow, store)
     service = build('calendar', 'v3', http=creds.authorize(Http()))
     # Call the Calendar API
-    now = datetime.datetime.utcnow().isoformat() + 'Z' # 'Z' indicates UTC time
-    print('Getting the upcoming 10 events')
+    #now = datetime.datetime.utcnow().isoformat() + 'Z' # 'Z' indicates UTC time
+    #print('Getting the upcoming 10 events')
+    now = '2018-07-01T01:01:01.000001Z'
+    print(now)
     events_result = service.events().list(calendarId='primary', timeMin=now,
-                                          maxResults=10, singleEvents=True,
+                                          maxResults=30, singleEvents=True,
                                           orderBy='startTime').execute()
     events = events_result.get('items', [])
 
@@ -65,8 +67,6 @@ def index(request):
         dat=event['start'].get('dateTime')
         print('date : ', dat[0:10])
         temp=dat[0:10]
-        cutdate=temp[8:10]
-        print(cutdate)
 
         att=event['attendees'][0]['email']
         res=event['attendees'][0]['responseStatus']
@@ -153,12 +153,12 @@ def post(request):
                 'summary': title,
                 'location': location,
                 'start': {
-                    'dateTime': date+'T12:00:00-07:00',
-                    'timeZone': 'America/Los_Angeles',
+                    'dateTime': date+'T00:00:00-01:00',
+                    'timeZone': 'Asia/Tokyo',
                 },
                 'end': {
-                    'dateTime': date+'T12:00:00-07:00',
-                    'timeZone': 'America/Los_Angeles',
+                    'dateTime': date+'T00:00:00-01:00',
+                    'timeZone': 'Asia/Tokyo',
                 },
                 'attendees':[
                     {
@@ -174,5 +174,6 @@ def post(request):
             return HttpResponse('Request Success !')
     else:
         form = PostForm()
+        print(type(form))
         print('else')
     return render(request,'googlecalendar/index.html', {'form':form})

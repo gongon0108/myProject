@@ -3,12 +3,33 @@
 <head>
 
     <meta charset="UTF-8" name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.2/css/bootstrap.min.css" integrity="sha384-Smlep5jCw/wG7hdkwQ/Z5nLIefveQRIY9nfy6xoR1uRYBtpZgI6339F5dgvm/e9B" crossorigin="anonymous">
     <link rel="stylesheet" type="" href="{%static 'googlecalendar/style.css' %}"/>
+
+
     <title>My Events</title>
     <style>
-    table, th, td {
-    border: 1px solid black;
+    #customers {
+    font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
     border-collapse: collapse;
+    width: 100%;
+    }
+
+    #customers td, #customers th {
+    border: 1px solid #ddd;
+    padding: 8px;
+    }
+
+    #customers tr:nth-child(even){background-color: #f2f2f2;}
+
+    #customers tr:hover {background-color: #ddd;}
+
+    #customers th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: left;
+    background-color: #4CAF50;
+    color: white;
     }
 
     ul.days li:hover{
@@ -88,20 +109,23 @@
 </ul>
 
 <ul class="days">
-    <li>1<br>
+    <li><b>1</b><br>
         {% for Calendar in Calendar_list %}
         {% if Calendar.date == "2018-07-01" %}
         {{Calendar.title}}
         {% endif %}
         {% endfor %}
         <br>
-        <button id="myBtn1">detail</button>
+        <button id="myBtn1" class="btn btn-primary btn-sm">detail</button>
+        <form>
+            <input type="button" class="btn btn-secondary btn-sm" value="create" onclick="window.location.href='http://localhost:8000/googlecalendar/new/'"/>
+        </form>
         <div id="myModal1" class="modal">
             <div class="modal-content">
                 <span class="close">&times;</span>
                 <p> {% for Calendar in Calendar_list %}
                     {% if Calendar.date == "2018-07-01" %}
-                    {{Calendar.title}}<br>
+                    <b>{{Calendar.title}}</b><br>
                     location : {{Calendar.location}}<br>
                     attendee : {{Calendar.attendee}}<br>
                     response : {{Calendar.response}}<br>
@@ -110,21 +134,24 @@
                     {% endfor %}</p>
             </div>
         </div>
-        <br>.</li>
-    <li>2<br>
+        <br></li>
+    <li><b>2</b><br>
         {% for Calendar in Calendar_list %}
         {% if Calendar.date == "2018-07-02" %}
         {{Calendar.title}}
         {% endif %}
         {% endfor %}
         <br>
-        <button id="myBtn2">detail</button>
+        <button id="myBtn2" class="btn btn-primary btn-sm">detail</button>
+        <form>
+            <input type="button" class="btn btn-secondary btn-sm" value="create" onclick="window.location.href='http://localhost:8000/googlecalendar/new/'"/>
+        </form>
         <div id="myModal2" class="modal">
             <div class="modal-content">
                 <span class="close">&times;</span>
                 <p> {% for Calendar in Calendar_list %}
                     {% if Calendar.date == "2018-07-02" %}
-                    {{Calendar.title}}<br>
+                    <b>{{Calendar.title}}</b><br>
                     location : {{Calendar.location}}<br>
                     attendee : {{Calendar.attendee}}<br>
                     response : {{Calendar.response}}<br>
@@ -133,20 +160,23 @@
                     {% endfor %}</p>
             </div>
         </div>
-        <br>.</li>
-    <li>3<br>
+        <br></li>
+    <li><b>3</b><br>
         {% for Calendar in Calendar_list %}
         {% if Calendar.date == "2018-07-03" %}
         {{Calendar.title}}
         {% endif %}
         {% endfor %}<br>
-        <button id="myBtn3">detail</button>
+        <button id="myBtn3" class="btn btn-primary btn-sm">detail</button>
+        <form>
+            <input type="button" class="btn btn-secondary btn-sm" value="create" onclick="window.location.href='http://localhost:8000/googlecalendar/new/'"/>
+        </form>
         <div id="myModal3" class="modal">
             <div class="modal-content">
                 <span class="close">&times;</span>
                 <p> {% for Calendar in Calendar_list %}
                     {% if Calendar.date == "2018-07-03" %}
-                    {{Calendar.title}}<br>
+                    <b>{{Calendar.title}}</b><br>
                     location : {{Calendar.location}}<br>
                     attendee : {{Calendar.attendee}}<br>
                     response : {{Calendar.response}}<br>
@@ -155,21 +185,24 @@
                     {% endfor %}</p>
             </div>
         </div>
-        <br>.</li>
-    <li>4<br>
+        <br></li>
+    <li><b>4</b><br>
         {% for Calendar in Calendar_list %}
         {% if Calendar.date == "2018-07-04" %}
         {{Calendar.title}}
         {% endif %}
         {% endfor %}
         <br>
-        <button id="myBtn4">detail</button>
+        <button id="myBtn4" class="btn btn-primary btn-sm">detail</button>
+        <form>
+            <input type="button" class="btn btn-secondary btn-sm" value="create" onclick="window.location.href='http://localhost:8000/googlecalendar/new/'"/>
+        </form>
         <div id="myModal4" class="modal">
             <div class="modal-content">
                 <span class="close">&times;</span>
                 <p> {% for Calendar in Calendar_list %}
                     {% if Calendar.date == "2018-07-04" %}
-                    {{Calendar.title}}<br>
+                    <b>{{Calendar.title}}</b><br>
                     location : {{Calendar.location}}<br>
                     attendee : {{Calendar.attendee}}<br>
                     response : {{Calendar.response}}<br>
@@ -178,21 +211,24 @@
                     {% endfor %}</p>
             </div>
         </div>
-        <br>.</li>
-    <li>5<br>
+        <br></li>
+    <li><b>5</b><br>
         {% for Calendar in Calendar_list %}
         {% if Calendar.date == "2018-07-05" %}
         {{Calendar.title}}
         {% endif %}
         {% endfor %}
         <br>
-        <button id="myBtn5">detail</button>
+        <button id="myBtn5" class="btn btn-primary btn-sm">detail</button>
+        <form>
+            <input type="button" class="btn btn-secondary btn-sm" value="create" onclick="window.location.href='http://localhost:8000/googlecalendar/new/'"/>
+        </form>
         <div id="myModal5" class="modal">
             <div class="modal-content">
                 <span class="close">&times;</span>
                 <p> {% for Calendar in Calendar_list %}
                     {% if Calendar.date == "2018-07-05" %}
-                    {{Calendar.title}}<br>
+                    <b>{{Calendar.title}}</b><br>
                     location : {{Calendar.location}}<br>
                     attendee : {{Calendar.attendee}}<br>
                     response : {{Calendar.response}}<br>
@@ -201,21 +237,24 @@
                     {% endfor %}</p>
             </div>
         </div>
-        <br>.</li>
-    <li>6<br>
+        <br></li>
+    <li><b>6</b><br>
         {% for Calendar in Calendar_list %}
         {% if Calendar.date == "2018-07-06" %}
         {{Calendar.title}}
         {% endif %}
         {% endfor %}
         <br>
-        <button id="myBtn6">detail</button>
+        <button id="myBtn6" class="btn btn-primary btn-sm">detail</button>
+        <form>
+            <input type="button" class="btn btn-secondary btn-sm" value="create" onclick="window.location.href='http://localhost:8000/googlecalendar/new/'"/>
+        </form>
         <div id="myModal6" class="modal">
             <div class="modal-content">
                 <span class="close">&times;</span>
                 <p> {% for Calendar in Calendar_list %}
                     {% if Calendar.date == "2018-07-06" %}
-                    {{Calendar.title}}<br>
+                    <b>{{Calendar.title}}</b><br>
                     location : {{Calendar.location}}<br>
                     attendee : {{Calendar.attendee}}<br>
                     response : {{Calendar.response}}<br>
@@ -224,21 +263,24 @@
                     {% endfor %}</p>
             </div>
         </div>
-        <br>.</li>
-    <li>7<br>
+        <br></li>
+    <li><b>7</b><br>
         {% for Calendar in Calendar_list %}
         {% if Calendar.date == "2018-07-07" %}
         {{Calendar.title}}
         {% endif %}
         {% endfor %}
         <br>
-        <button id="myBtn7">detail</button>
+        <button id="myBtn7" class="btn btn-primary btn-sm">detail</button>
+        <form>
+            <input type="button" class="btn btn-secondary btn-sm" value="create" onclick="window.location.href='http://localhost:8000/googlecalendar/new/'"/>
+        </form>
         <div id="myModal7" class="modal">
             <div class="modal-content">
                 <span class="close">&times;</span>
                 <p> {% for Calendar in Calendar_list %}
                     {% if Calendar.date == "2018-07-07" %}
-                    {{Calendar.title}}<br>
+                    <b>{{Calendar.title}}</b><br>
                     location : {{Calendar.location}}<br>
                     attendee : {{Calendar.attendee}}<br>
                     response : {{Calendar.response}}<br>
@@ -247,21 +289,24 @@
                     {% endfor %}</p>
             </div>
         </div>
-        <br>.</li>
-    <li>8<br>
+        <br></li>
+    <li><b>8</b><br>
         {% for Calendar in Calendar_list %}
         {% if Calendar.date == "2018-07-08" %}
         {{Calendar.title}}
         {% endif %}
         {% endfor %}
         <br>
-        <button id="myBtn8">detail</button>
+        <button id="myBtn8" class="btn btn-primary btn-sm">detail</button>
+        <form>
+            <input type="button" class="btn btn-secondary btn-sm" value="create" onclick="window.location.href='http://localhost:8000/googlecalendar/new/'"/>
+        </form>
         <div id="myModal8" class="modal">
             <div class="modal-content">
                 <span class="close">&times;</span>
                 <p> {% for Calendar in Calendar_list %}
                     {% if Calendar.date == "2018-07-08" %}
-                    {{Calendar.title}}<br>
+                    <b>{{Calendar.title}}</b><br>
                     location : {{Calendar.location}}<br>
                     attendee : {{Calendar.attendee}}<br>
                     response : {{Calendar.response}}<br>
@@ -270,21 +315,24 @@
                     {% endfor %}</p>
             </div>
         </div>
-        <br>.</li>
-    <li>9<br>
+        <br></li>
+    <li><b>9</b><br>
         {% for Calendar in Calendar_list %}
         {% if Calendar.date == "2018-07-09" %}
         {{Calendar.title}}
         {% endif %}
         {% endfor %}
         <br>
-        <button id="myBtn9">detail</button>
+        <button id="myBtn9" class="btn btn-primary btn-sm">detail</button>
+        <form>
+            <input type="button" class="btn btn-secondary btn-sm" value="create" onclick="window.location.href='http://localhost:8000/googlecalendar/new/'"/>
+        </form>
         <div id="myModal9" class="modal">
             <div class="modal-content">
                 <span class="close">&times;</span>
                 <p> {% for Calendar in Calendar_list %}
                     {% if Calendar.date == "2018-07-09" %}
-                    {{Calendar.title}}<br>
+                    <b>{{Calendar.title}}</b><br>
                     location : {{Calendar.location}}<br>
                     attendee : {{Calendar.attendee}}<br>
                     response : {{Calendar.response}}<br>
@@ -293,21 +341,24 @@
                     {% endfor %}</p>
             </div>
         </div>
-        <br>.</li>
-    <li>10<br>
+        <br></li>
+    <li><b>10</b><br>
         {% for Calendar in Calendar_list %}
         {% if Calendar.date == "2018-07-10" %}
         {{Calendar.title}}
         {% endif %}
         {% endfor %}
         <br>
-        <button id="myBtn10">detail</button>
+        <button id="myBtn10" class="btn btn-primary btn-sm">detail</button>
+        <form>
+            <input type="button" class="btn btn-secondary btn-sm" value="create" onclick="window.location.href='http://localhost:8000/googlecalendar/new/'"/>
+        </form>
         <div id="myModal10" class="modal">
             <div class="modal-content">
                 <span class="close">&times;</span>
                 <p> {% for Calendar in Calendar_list %}
                     {% if Calendar.date == "2018-07-10" %}
-                    {{Calendar.title}}<br>
+                    <b>{{Calendar.title}}</b><br>
                     location : {{Calendar.location}}<br>
                     attendee : {{Calendar.attendee}}<br>
                     response : {{Calendar.response}}<br>
@@ -316,21 +367,24 @@
                     {% endfor %}</p>
             </div>
         </div>
-        <br>.</li>
-    <li>11<br>
+        <br></li>
+    <li><b>11</b><br>
         {% for Calendar in Calendar_list %}
         {% if Calendar.date == "2018-07-11" %}
         {{Calendar.title}}
         {% endif %}
         {% endfor %}
         <br>
-        <button id="myBtn11">detail</button>
+        <button id="myBtn11" class="btn btn-primary btn-sm">detail</button>
+        <form>
+            <input type="button" class="btn btn-secondary btn-sm" value="create" onclick="window.location.href='http://localhost:8000/googlecalendar/new/'"/>
+        </form>
         <div id="myModal11" class="modal">
             <div class="modal-content">
                 <span class="close">&times;</span>
                 <p> {% for Calendar in Calendar_list %}
                     {% if Calendar.date == "2018-07-11" %}
-                    {{Calendar.title}}<br>
+                    <b>{{Calendar.title}}</b><br>
                     location : {{Calendar.location}}<br>
                     attendee : {{Calendar.attendee}}<br>
                     response : {{Calendar.response}}<br>
@@ -339,21 +393,24 @@
                     {% endfor %}</p>
             </div>
         </div>
-        <br>.</li>
-    <li>12<br>
+        <br></li>
+    <li><b>12</b><br>
         {% for Calendar in Calendar_list %}
         {% if Calendar.date == "2018-07-12" %}
         {{Calendar.title}}
         {% endif %}
         {% endfor %}
         <br>
-        <button id="myBtn12">detail</button>
+        <button id="myBtn12" class="btn btn-primary btn-sm">detail</button>
+        <form>
+            <input type="button" class="btn btn-secondary btn-sm" value="create" onclick="window.location.href='http://localhost:8000/googlecalendar/new/'"/>
+        </form>
         <div id="myModal12" class="modal">
             <div class="modal-content">
                 <span class="close">&times;</span>
                 <p> {% for Calendar in Calendar_list %}
                     {% if Calendar.date == "2018-07-12" %}
-                    {{Calendar.title}}<br>
+                    <b>{{Calendar.title}}</b><br>
                     location : {{Calendar.location}}<br>
                     attendee : {{Calendar.attendee}}<br>
                     response : {{Calendar.response}}<br>
@@ -362,21 +419,24 @@
                     {% endfor %}</p>
             </div>
         </div>
-        <br>.</li>
-    <li>13<br>
+        <br></li>
+    <li><b>13</b><br>
         {% for Calendar in Calendar_list %}
         {% if Calendar.date == "2018-07-13" %}
         {{Calendar.title}}
         {% endif %}
         {% endfor %}
         <br>
-        <button id="myBtn13">detail</button>
+        <button id="myBtn13" class="btn btn-primary btn-sm">detail</button>
+        <form>
+            <input type="button" class="btn btn-secondary btn-sm" value="create" onclick="window.location.href='http://localhost:8000/googlecalendar/new/'"/>
+        </form>
         <div id="myModal13" class="modal">
             <div class="modal-content">
                 <span class="close">&times;</span>
                 <p> {% for Calendar in Calendar_list %}
                     {% if Calendar.date == "2018-07-13" %}
-                    {{Calendar.title}}<br>
+                    <b>{{Calendar.title}}</b><br>
                     location : {{Calendar.location}}<br>
                     attendee : {{Calendar.attendee}}<br>
                     response : {{Calendar.response}}<br>
@@ -385,21 +445,24 @@
                     {% endfor %}</p>
             </div>
         </div>
-        <br>.</li>
-    <li>14<br>
+        <br></li>
+    <li><b>14</b><br>
         {% for Calendar in Calendar_list %}
         {% if Calendar.date == "2018-07-14" %}
         {{Calendar.title}}
         {% endif %}
         {% endfor %}
         <br>
-        <button id="myBtn14">detail</button>
+        <button id="myBtn14" class="btn btn-primary btn-sm">detail</button>
+        <form>
+            <input type="button" class="btn btn-secondary btn-sm" value="create" onclick="window.location.href='http://localhost:8000/googlecalendar/new/'"/>
+        </form>
         <div id="myModal14" class="modal">
             <div class="modal-content">
                 <span class="close">&times;</span>
                 <p> {% for Calendar in Calendar_list %}
                     {% if Calendar.date == "2018-07-14" %}
-                    {{Calendar.title}}<br>
+                    <b>{{Calendar.title}}</b><br>
                     location : {{Calendar.location}}<br>
                     attendee : {{Calendar.attendee}}<br>
                     response : {{Calendar.response}}<br>
@@ -408,21 +471,24 @@
                     {% endfor %}</p>
             </div>
         </div>
-        <br>.</li>
-    <li>15<br>
+        <br></li>
+    <li><b>15</b><br>
         {% for Calendar in Calendar_list %}
         {% if Calendar.date == "2018-07-15" %}
         {{Calendar.title}}
         {% endif %}
         {% endfor %}
         <br>
-        <button id="myBtn15">detail</button>
+        <button id="myBtn15" class="btn btn-primary btn-sm">detail</button>
+        <form>
+            <input type="button" class="btn btn-secondary btn-sm" value="create" onclick="window.location.href='http://localhost:8000/googlecalendar/new/'"/>
+        </form>
         <div id="myModal15" class="modal">
             <div class="modal-content">
                 <span class="close">&times;</span>
                 <p> {% for Calendar in Calendar_list %}
                     {% if Calendar.date == "2018-07-15" %}
-                    {{Calendar.title}}<br>
+                    <b>{{Calendar.title}}</b><br>
                     location : {{Calendar.location}}<br>
                     attendee : {{Calendar.attendee}}<br>
                     response : {{Calendar.response}}<br>
@@ -431,8 +497,8 @@
                     {% endfor %}</p>
             </div>
         </div>
-        <br>.</li>
-    <li>16<br>
+        <br></li>
+    <li><b>16</b><br>
         {% for Calendar in Calendar_list %}
         {% if Calendar.date == "2018-07-16" %}
         {{Calendar.title}}
@@ -440,13 +506,16 @@
         {% endif %}
         {% endfor %}
         <br>
-        <button id="myBtn16">detail</button>
+        <button id="myBtn16" class="btn btn-primary btn-sm">detail</button>
+        <form>
+            <input type="button" class="btn btn-secondary btn-sm" value="create" onclick="window.location.href='http://localhost:8000/googlecalendar/new/'"/>
+        </form>
         <div id="myModal16" class="modal">
             <div class="modal-content">
                 <span class="close">&times;</span>
                 <p> {% for Calendar in Calendar_list %}
                     {% if Calendar.date == "2018-07-16" %}
-                    {{Calendar.title}}<br>
+                    <b>{{Calendar.title}}</b><br>
                     location : {{Calendar.location}}<br>
                     attendee : {{Calendar.attendee}}<br>
                     response : {{Calendar.response}}<br>
@@ -455,22 +524,24 @@
                     {% endfor %}</p>
             </div>
         </div>
-        <br>.
-        </li>
-    <li>17<br>
+        <br></li>
+    <li><b>17</b><br>
         {% for Calendar in Calendar_list %}
         {% if Calendar.date == "2018-07-17" %}
         {{Calendar.title}}
         {% endif %}
         {% endfor %}
         <br>
-        <button id="myBtn17">detail</button>
+        <button id="myBtn17" class="btn btn-primary btn-sm">detail</button>
+        <form>
+            <input type="button" class="btn btn-secondary btn-sm" value="create" onclick="window.location.href='http://localhost:8000/googlecalendar/new/'"/>
+        </form>
         <div id="myModal17" class="modal">
             <div class="modal-content">
                 <span class="close">&times;</span>
                 <p> {% for Calendar in Calendar_list %}
                     {% if Calendar.date == "2018-07-17" %}
-                    {{Calendar.title}}<br>
+                    <b>{{Calendar.title}}</b><br>
                     location : {{Calendar.location}}<br>
                     attendee : {{Calendar.attendee}}<br>
                     response : {{Calendar.response}}<br>
@@ -479,21 +550,24 @@
                     {% endfor %}</p>
             </div>
         </div>
-        <br>.</li>
-    <li>18<br>
+        <br></li>
+    <li><b>18</b><br>
         {% for Calendar in Calendar_list %}
         {% if Calendar.date == "2018-07-18" %}
         {{Calendar.title}}
         {% endif %}
         {% endfor %}
         <br>
-        <button id="myBtn18">detail</button>
+        <button id="myBtn18" class="btn btn-primary btn-sm">detail</button>
+        <form>
+            <input type="button" class="btn btn-secondary btn-sm" value="create" onclick="window.location.href='http://localhost:8000/googlecalendar/new/'"/>
+        </form>
         <div id="myModal18" class="modal">
             <div class="modal-content">
                 <span class="close">&times;</span>
                 <p> {% for Calendar in Calendar_list %}
                     {% if Calendar.date == "2018-07-18" %}
-                    {{Calendar.title}}<br>
+                    <b>{{Calendar.title}}</b><br>
                     location : {{Calendar.location}}<br>
                     attendee : {{Calendar.attendee}}<br>
                     response : {{Calendar.response}}<br>
@@ -502,21 +576,24 @@
                     {% endfor %}</p>
             </div>
         </div>
-        <br>.</li>
-    <li>19<br>
+        <br></li>
+    <li><b>19</b><br>
         {% for Calendar in Calendar_list %}
         {% if Calendar.date == "2018-07-19" %}
         {{Calendar.title}}
         {% endif %}
         {% endfor %}
         <br>
-        <button id="myBtn19">detail</button>
+        <button id="myBtn19" class="btn btn-primary btn-sm">detail</button>
+        <form>
+            <input type="button" class="btn btn-secondary btn-sm" value="create" onclick="window.location.href='http://localhost:8000/googlecalendar/new/'"/>
+        </form>
         <div id="myModal19" class="modal">
             <div class="modal-content">
                 <span class="close">&times;</span>
                 <p> {% for Calendar in Calendar_list %}
                     {% if Calendar.date == "2018-07-19" %}
-                    {{Calendar.title}}<br>
+                    <b>{{Calendar.title}}</b><br>
                     location : {{Calendar.location}}<br>
                     attendee : {{Calendar.attendee}}<br>
                     response : {{Calendar.response}}<br>
@@ -525,21 +602,24 @@
                     {% endfor %}</p>
             </div>
         </div>
-        <br>.</li>
-    <li>20<br>
+        <br></li>
+    <li><b>20</b><br>
         {% for Calendar in Calendar_list %}
         {% if Calendar.date == "2018-07-20" %}
         {{Calendar.title}}
         {% endif %}
         {% endfor %}
         <br>
-        <button id="myBtn20">detail</button>
+        <button id="myBtn20" class="btn btn-primary btn-sm">detail</button>
+        <form>
+            <input type="button" class="btn btn-secondary btn-sm" value="create" onclick="window.location.href='http://localhost:8000/googlecalendar/new/'"/>
+        </form>
         <div id="myModal20" class="modal">
             <div class="modal-content">
                 <span class="close">&times;</span>
                 <p> {% for Calendar in Calendar_list %}
                     {% if Calendar.date == "2018-07-20" %}
-                    {{Calendar.title}}<br>
+                    <b>{{Calendar.title}}</b><br>
                     location : {{Calendar.location}}<br>
                     attendee : {{Calendar.attendee}}<br>
                     response : {{Calendar.response}}<br>
@@ -548,21 +628,24 @@
                     {% endfor %}</p>
             </div>
         </div>
-        <br>.</li>
-    <li>21<br>
+        <br></li>
+    <li><b>21</b><br>
         {% for Calendar in Calendar_list %}
         {% if Calendar.date == "2018-07-21" %}
         {{Calendar.title}}
         {% endif %}
         {% endfor %}
         <br>
-        <button id="myBtn21">detail</button>
+        <button id="myBtn21" class="btn btn-primary btn-sm">detail</button>
+        <form>
+            <input type="button" class="btn btn-secondary btn-sm" value="create" onclick="window.location.href='http://localhost:8000/googlecalendar/new/'"/>
+        </form>
         <div id="myModal21" class="modal">
             <div class="modal-content">
                 <span class="close">&times;</span>
                 <p> {% for Calendar in Calendar_list %}
                     {% if Calendar.date == "2018-07-21" %}
-                    {{Calendar.title}}<br>
+                    <b>{{Calendar.title}}</b><br>
                     location : {{Calendar.location}}<br>
                     attendee : {{Calendar.attendee}}<br>
                     response : {{Calendar.response}}<br>
@@ -571,21 +654,24 @@
                     {% endfor %}</p>
             </div>
         </div>
-        <br>.</li>
-    <li>22<br>
+        <br></li>
+    <li><b>22</b><br>
         {% for Calendar in Calendar_list %}
         {% if Calendar.date == "2018-07-22" %}
         {{Calendar.title}}
         {% endif %}
         {% endfor %}
         <br>
-        <button id="myBtn22">detail</button>
+        <button id="myBtn22" class="btn btn-primary btn-sm">detail</button>
+        <form>
+            <input type="button" class="btn btn-secondary btn-sm" value="create" onclick="window.location.href='http://localhost:8000/googlecalendar/new/'"/>
+        </form>
         <div id="myModal22" class="modal">
             <div class="modal-content">
                 <span class="close">&times;</span>
                 <p> {% for Calendar in Calendar_list %}
                     {% if Calendar.date == "2018-07-22" %}
-                    {{Calendar.title}}<br>
+                    <b>{{Calendar.title}}</b><br>
                     location : {{Calendar.location}}<br>
                     attendee : {{Calendar.attendee}}<br>
                     response : {{Calendar.response}}<br>
@@ -594,21 +680,24 @@
                     {% endfor %}</p>
             </div>
         </div>
-        <br>.</li>
-    <li>23<br>
+        <br></li>
+    <li><b>23</b><br>
         {% for Calendar in Calendar_list %}
         {% if Calendar.date == "2018-07-23" %}
         {{Calendar.title}}
         {% endif %}
         {% endfor %}
         <br>
-        <button id="myBtn23">detail</button>
+        <button id="myBtn23" class="btn btn-primary btn-sm">detail</button>
+        <form>
+            <input type="button" class="btn btn-secondary btn-sm" value="create" onclick="window.location.href='http://localhost:8000/googlecalendar/new/'"/>
+        </form>
         <div id="myModal23" class="modal">
             <div class="modal-content">
                 <span class="close">&times;</span>
                 <p> {% for Calendar in Calendar_list %}
                     {% if Calendar.date == "2018-07-23" %}
-                    {{Calendar.title}}<br>
+                    <b>{{Calendar.title}}</b><br>
                     location : {{Calendar.location}}<br>
                     attendee : {{Calendar.attendee}}<br>
                     response : {{Calendar.response}}<br>
@@ -617,21 +706,24 @@
                     {% endfor %}</p>
             </div>
         </div>
-        <br>.</li>
-    <li>24<br>
+        <br></li>
+    <li><b>24</b><br>
         {% for Calendar in Calendar_list %}
         {% if Calendar.date == "2018-07-24" %}
         {{Calendar.title}}
         {% endif %}
         {% endfor %}
         <br>
-        <button id="myBtn24">detail</button>
+        <button id="myBtn24" class="btn btn-primary btn-sm">detail</button>
+        <form>
+            <input type="button" class="btn btn-secondary btn-sm" value="create" onclick="window.location.href='http://localhost:8000/googlecalendar/new/'"/>
+        </form>
         <div id="myModal24" class="modal">
             <div class="modal-content">
                 <span class="close">&times;</span>
                 <p> {% for Calendar in Calendar_list %}
-                    {% if Calendar.date == "2018-07-18" %}
-                    {{Calendar.title}}<br>
+                    {% if Calendar.date == "2018-07-24" %}
+                    <b>{{Calendar.title}}</b><br>
                     location : {{Calendar.location}}<br>
                     attendee : {{Calendar.attendee}}<br>
                     response : {{Calendar.response}}<br>
@@ -640,21 +732,24 @@
                     {% endfor %}</p>
             </div>
         </div>
-        <br>.</li>
-    <li>25<br>
+        <br></li>
+    <li><b>25</b><br>
         {% for Calendar in Calendar_list %}
         {% if Calendar.date == "2018-07-25" %}
         {{Calendar.title}}
         {% endif %}
         {% endfor %}
         <br>
-        <button id="myBtn25">detail</button>
+        <button id="myBtn25" class="btn btn-primary btn-sm">detail</button>
+        <form>
+            <input type="button" class="btn btn-secondary btn-sm" value="create" onclick="window.location.href='http://localhost:8000/googlecalendar/new/'"/>
+        </form>
         <div id="myModal25" class="modal">
             <div class="modal-content">
                 <span class="close">&times;</span>
                 <p> {% for Calendar in Calendar_list %}
                     {% if Calendar.date == "2018-07-25" %}
-                    {{Calendar.title}}<br>
+                    <b>{{Calendar.title}}</b><br>
                     location : {{Calendar.location}}<br>
                     attendee : {{Calendar.attendee}}<br>
                     response : {{Calendar.response}}<br>
@@ -663,21 +758,24 @@
                     {% endfor %}</p>
             </div>
         </div>
-        <br>.</li>
-    <li>26<br>
+        <br></li>
+    <li><b>26</b><br>
         {% for Calendar in Calendar_list %}
         {% if Calendar.date == "2018-07-26" %}
         {{Calendar.title}}
         {% endif %}
         {% endfor %}
         <br>
-        <button id="myBtn26">detail</button>
+        <button id="myBtn26" class="btn btn-primary btn-sm">detail</button>
+        <form>
+            <input type="button" class="btn btn-secondary btn-sm" value="create" onclick="window.location.href='http://localhost:8000/googlecalendar/new/'"/>
+        </form>
         <div id="myModal26" class="modal">
             <div class="modal-content">
                 <span class="close">&times;</span>
                 <p> {% for Calendar in Calendar_list %}
                     {% if Calendar.date == "2018-07-26" %}
-                    {{Calendar.title}}<br>
+                    <b>{{Calendar.title}}</b><br>
                     location : {{Calendar.location}}<br>
                     attendee : {{Calendar.attendee}}<br>
                     response : {{Calendar.response}}<br>
@@ -686,21 +784,24 @@
                     {% endfor %}</p>
             </div>
         </div>
-        <br>.</li>
-    <li>27<br>
+        <br></li>
+    <li><b>27</b><br>
         {% for Calendar in Calendar_list %}
         {% if Calendar.date == "2018-07-27" %}
         {{Calendar.title}}
         {% endif %}
         {% endfor %}
         <br>
-        <button id="myBtn27">detail</button>
+        <button id="myBtn27" class="btn btn-primary btn-sm">detail</button>
+        <form>
+            <input type="button" class="btn btn-secondary btn-sm" value="create" onclick="window.location.href='http://localhost:8000/googlecalendar/new/'"/>
+        </form>
         <div id="myModal27" class="modal">
             <div class="modal-content">
                 <span class="close">&times;</span>
                 <p> {% for Calendar in Calendar_list %}
                     {% if Calendar.date == "2018-07-27" %}
-                    {{Calendar.title}}<br>
+                    <b>{{Calendar.title}}</b><br>
                     location : {{Calendar.location}}<br>
                     attendee : {{Calendar.attendee}}<br>
                     response : {{Calendar.response}}<br>
@@ -709,21 +810,24 @@
                     {% endfor %}</p>
             </div>
         </div>
-        <br>.</li>
-    <li>28<br>
+        <br></li>
+    <li><b>28</b><br>
         {% for Calendar in Calendar_list %}
         {% if Calendar.date == "2018-07-28" %}
         {{Calendar.title}}
         {% endif %}
         {% endfor %}
         <br>
-        <button id="myBtn28">detail</button>
+        <button id="myBtn28" class="btn btn-primary btn-sm">detail</button>
+        <form>
+            <input type="button" class="btn btn-secondary btn-sm" value="create" onclick="window.location.href='http://localhost:8000/googlecalendar/new/'"/>
+        </form>
         <div id="myModal28" class="modal">
             <div class="modal-content">
                 <span class="close">&times;</span>
                 <p> {% for Calendar in Calendar_list %}
                     {% if Calendar.date == "2018-07-28" %}
-                    {{Calendar.title}}<br>
+                    <b>{{Calendar.title}}</b><br>
                     location : {{Calendar.location}}<br>
                     attendee : {{Calendar.attendee}}<br>
                     response : {{Calendar.response}}<br>
@@ -732,21 +836,24 @@
                     {% endfor %}</p>
             </div>
         </div>
-        <br>.</li>
-    <li>29<br>
+        <br></li>
+    <li><b>29</b><br>
         {% for Calendar in Calendar_list %}
         {% if Calendar.date == "2018-07-29" %}
         {{Calendar.title}}
         {% endif %}
         {% endfor %}
         <br>
-        <button id="myBtn29">detail</button>
+        <button id="myBtn29" class="btn btn-primary btn-sm">detail</button>
+        <form>
+            <input type="button" class="btn btn-secondary btn-sm" value="create" onclick="window.location.href='http://localhost:8000/googlecalendar/new/'"/>
+        </form>
         <div id="myModal29" class="modal">
             <div class="modal-content">
                 <span class="close">&times;</span>
                 <p> {% for Calendar in Calendar_list %}
                     {% if Calendar.date == "2018-07-29" %}
-                    {{Calendar.title}}<br>
+                    <b>{{Calendar.title}}</b><br>
                     location : {{Calendar.location}}<br>
                     attendee : {{Calendar.attendee}}<br>
                     response : {{Calendar.response}}<br>
@@ -755,21 +862,24 @@
                     {% endfor %}</p>
             </div>
         </div>
-        <br>.</li>
-    <li>30<br>
+        <br></li>
+    <li><b>30</b><br>
         {% for Calendar in Calendar_list %}
         {% if Calendar.date == "2018-07-30" %}
         {{Calendar.title}}
         {% endif %}
         {% endfor %}
         <br>
-        <button id="myBtn30">detail</button>
+        <button id="myBtn30" class="btn btn-primary btn-sm">detail</button>
+        <form>
+            <input type="button" class="btn btn-secondary btn-sm" value="create" onclick="window.location.href='http://localhost:8000/googlecalendar/new/'"/>
+        </form>
         <div id="myModal30" class="modal">
             <div class="modal-content">
                 <span class="close">&times;</span>
                 <p> {% for Calendar in Calendar_list %}
                     {% if Calendar.date == "2018-07-30" %}
-                    {{Calendar.title}}<br>
+                    <b>{{Calendar.title}}</b><br>
                     location : {{Calendar.location}}<br>
                     attendee : {{Calendar.attendee}}<br>
                     response : {{Calendar.response}}<br>
@@ -778,21 +888,24 @@
                     {% endfor %}</p>
             </div>
         </div>
-        <br>.</li>
-    <li>31<br>
+        <br></li>
+    <li><b>31</b><br>
         {% for Calendar in Calendar_list %}
         {% if Calendar.date == "2018-07-31" %}
         {{Calendar.title}}
         {% endif %}
         {% endfor %}
         <br>
-        <button id="myBtn31">detail</button>
+        <button id="myBtn31" class="btn btn-primary btn-sm">detail</button>
+        <form>
+            <input type="button" class="btn btn-secondary btn-sm" value="create" onclick="window.location.href='http://localhost:8000/googlecalendar/new/'"/>
+        </form>
         <div id="myModal31" class="modal">
             <div class="modal-content">
                 <span class="close">&times;</span>
                 <p> {% for Calendar in Calendar_list %}
                     {% if Calendar.date == "2018-07-31" %}
-                    {{Calendar.title}}<br>
+                    <b>{{Calendar.title}}</b><br>
                     location : {{Calendar.location}}<br>
                     attendee : {{Calendar.attendee}}<br>
                     response : {{Calendar.response}}<br>
@@ -801,17 +914,17 @@
                     {% endfor %}</p>
             </div>
         </div>
-        <br>.</li>
+        <br></li>
 
 </ul>
 <br>
 <a href="{% url "social:begin" "google-oauth2" %}"><button class="btn btn-danger" style="width: 20%">Google Login</button></a>
 
+<br>
 <h2>
     These are your events from Google Calendar.
 </h2>
-
-    <table>
+    <table id = "customers">
         <tr>
             <th>date</th>
             <th>title</th>
@@ -831,22 +944,14 @@
     </table>
 {% endif %}
 <br>
-<h3>Please input your events here~</h3>
 
-<form method="POST" class="post-form">
-    {%csrf_token%}{{form.as_p}}
-    <button type="submit">Create Events</button>
-    <!--
-    <p><label for="id_title">Title</label><input id="id_title" type="text" name="title"></p>
-    <p><label for="id_location">Location</label><input id="id_location" type="text" name="location"></p>
-    <p><label for="id_attendee">Attendee</label><input id="id_attendee" type="text" name="attendee"></p>
-    <p><label for="id_response">Response</label><input id="id_response" type="text" name="response"></p>
-    <br>!
-
-    <input type='submit' value="Create Event">-->
-
-</form>
-
+    <h3>Please input your events here~</h3>
+    <form method="POST" >
+        {%csrf_token%}
+        <b>{{form.as_p}}</b>
+        <button type="submit" class="btn btn-success">Create Events</button>
+        <input type="button" value="Go Back" class="btn btn-secondary" onclick="history.back();">
+    </form>
 <script>
     // Get the modal
     var modal1 = document.getElementById('myModal1');
